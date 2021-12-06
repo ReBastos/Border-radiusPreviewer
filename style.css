@@ -32,20 +32,25 @@ body {
 
 .generator {
   width: 250px;
-  height: 35px;
-  background-color: palegreen;
+  height: 60px;
+  background-color: rgb(200, 200, 200);
+  color: white;
+  padding: 5px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  border-radius: 5px;
 }
 
 #copyButton {
-  position: fixed;
+  
   align-self: flex-end;
+  color: white;
+  background: none;
 }
 
 .container{
-    height: 150px;
+    height: 200px;
     width: 270px;
     display: flex;
     flex-direction: column;
