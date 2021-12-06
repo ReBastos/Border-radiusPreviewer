@@ -10,3 +10,10 @@ function alterarBorder() {
     document.getElementById('textGenerated').textContent = `border-radius: ${top_left}% ${top_right}% ${bottom_right}% ${bottom_left}%;`
 
 };
+
+function copy(){
+
+    navigator.clipboard.writeText(document.getElementById('textGenerated').textContent);
+
+    window.alert("Copiado com Sucesso");
+};

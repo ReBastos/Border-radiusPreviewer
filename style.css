@@ -46,10 +46,12 @@ body {
 
 .container{
     height: 150px;
+    width: 270px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: papayawhip;
+    align-items: center;
+    background-color: rgb(255, 253, 235);
     border-radius: 10px;
 box-shadow:  6px 6px 29px #b3b3b3,
              -6px -6px 29px #ffffff;
